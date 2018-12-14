@@ -1,0 +1,101 @@
+﻿/* TopPage
+----------------------------------------------------------*/
+.div-toppage {
+    padding: 35px 0px 0px 35px;
+    width: 350px;
+    vertical-align: top;
+}
+.table-toppage {
+    width:100%;
+}
+.table-toppage  th, td {
+    padding:8px;
+    border: 1px solid #ccc;
+}
+
+
+/* FileMng
+----------------------------------------------------------*/
+.div-tabs {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 35px;
+}
+.div-tabs ul {
+    margin-left: -40px;
+}
+.div-tabs li{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 2px;
+    border-radius: 8px 8px 0px 0px
+}
+.div-tabs li.active {
+    border-bottom: none;
+}
+.div-tabs li a{
+    text-decoration: none;
+    text-align: center;
+}
+.div-tabs-content{
+    margin-top: -1px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+.condition-content {
+    margin-bottom: 5px;
+    color: #666;
+}
+.condition-label{
+    width:90px;
+    padding-right:0;
+}
+.condition-input{
+    width:180px;
+    padding-right:0;
+}
+.condition-label-radio {
+    font-weight:normal;
+    padding-right:0;
+}
+ul#icons li {
+    padding: 2px 8px;
+    margin: 2px;
+}
+#btnSearch {
+    margin-left: 90px;
+}
+
+/* jqGrid
+----------------------------------------------------------*/
+.ui-widget-content a ,
+.ui-widget-content .ui-state-highlight a{
+	color: #337ab7;
+    text-decoration: underline;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #337ab7;
+	text-decoration: underline;
+}
+
+/* ztree
+----------------------------------------------------------*/
+.ztree li {
+    float: none;
+}
